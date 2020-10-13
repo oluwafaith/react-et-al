@@ -7,13 +7,14 @@ import TodoItem from './TodoItem'
 import Todoo from './TodoComponent'
 import ContactCard from './ContactCard'
 import Vschool from './Vschool'
+import Practice from './ClassPractice'
 //import Joke from './Joke'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
     <ClassTimeOfDay />
-
+  <Practice />
     <Vschool />
     <App />
  
