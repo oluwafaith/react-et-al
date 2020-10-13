@@ -3,8 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import ClassTimeOfDay from'./TimeOfDay'
-import TodoItem from './TodoItem'
-import Todoo from './TodoComponent'
+
 
 import * as serviceWorker from './serviceWorker';
 
@@ -15,7 +14,6 @@ ReactDOM.render(
  
     
     
-    <Todoo />
 
   </React.StrictMode>,
   document.getElementById('root')
