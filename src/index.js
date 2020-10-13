@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+
+import Todoo from './TodoComponent'
 import ClassTimeOfDay from'./TimeOfDay'
 
 
@@ -11,7 +13,7 @@ ReactDOM.render(
   <React.StrictMode>
     <ClassTimeOfDay />
      <App />
- 
+     <Todoo />
     
     
 

@@ -20,7 +20,7 @@ function App() {
   }
   return (
     <div className="App">
-      <img onMouseOver={()=>console.log('hovered')} src="https://res.cloudinary.com/dhtxiw89g/image/upload/v1566647586/IMG_20180606_083511.jpg" style= {styles}/>
+      <img onMouseOver={()=>console.log('hovered')} src="https://res.cloudinary.com/dhtxiw89g/image/upload/v1566647586/IMG_20180606_083511.jpg" alt="img" style= {styles}/>
     <br/>
     <br/>
     <button onClick={handleClick} style={button}>click me </button>
